@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mensuration Lab — Cylinder Unroll (GeoGebra)</title>
+<style>
+  :root {
+    --ink: #1f2a24;
+    --paper: #f6f3ea;
+    --chalk: #2f6b4f;
+    --chalk-light: #eef5f0;
+    --accent: #c96a3a;
+    --line: #d9d2c0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 64px;
+  }
+  .sheet { max-width: 820px; width: 100%; }
+  .eyebrow {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--chalk);
+    margin-bottom: 6px;
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; font-weight: 600; }
+  .sub { color: #6b6355; font-size: 15px; margin-bottom: 24px; }
+  .panel {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .panel h2 {
+    font-size: 16px;
+    margin: 0 0 12px;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--chalk);
+  }
+  #ggb-container { width: 100%; display: flex; justify-content: center; }
+  .note {
+    background: var(--chalk-light);
+    border-left: 3px solid var(--chalk);
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 14px;
+  }
+  .qbox {
+    background: var(--chalk-light);
+    border-left: 3px solid var(--chalk);
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="eyebrow">NCERT · Mensuration · Class 9–10</div>
+  <h1>Unwrapping a Cylinder</h1>
+  <div class="sub">Live GeoGebra model — drag r and h, then hide the top/bottom circles to isolate the curved surface as it unrolls.</div>
+
+  <div class="panel">
+    <h2>Interactive model</h2>
+    <div id="ggb-container">
+      <iframe
+        src="https://www.geogebra.org/material/iframe/id/rCxXxFhE/width/760/height/460/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false"
+        width="760" height="460"
+        style="border:1px solid #d9d2c0; border-radius:4px;"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="note">
+      <strong>To hide the top/bottom circles:</strong> use the Algebra panel on the left of the applet —
+      click the small circle (⚪) icon next to each cap object to toggle its visibility off, so only the
+      curved lateral surface remains as it unrolls. You can also right-click an object directly on the
+      3D view and choose "Show Object."
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Question</h2>
+    <div class="qbox">
+      With the caps hidden, set radius = 3 cm and height = 7 cm, unroll the curved surface, and read off
+      the resulting rectangle's dimensions. What is the curved surface area?
+      <br><br>
+      <em>Hint: width = 2πr, height = h → CSA = 2πrh</em>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
